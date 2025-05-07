@@ -36,10 +36,9 @@ public class Conta{
     }
 
     public String toString(){
-        return "Conta: " + this.getNumero() 
-             + "\nAgencia: " + this.getAgencia()
-             + "\nNome do Cliente: " + this.getNomeCliente()
-             + "\nSaldo: " + this.getSaldo();
+        return "Olá " + this.getNomeCliente() + ", obrigado por criar uma conta em nosso banco, "
+             + "sua agência é " + this.getAgencia() + ", conta " + this.getNumero() 
+             + " e seu saldo " + this.getSaldo() +" já está disponível para saque.";
     }
 
 }
